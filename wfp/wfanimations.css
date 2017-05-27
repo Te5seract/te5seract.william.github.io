@@ -1,0 +1,14 @@
+body
+{
+  animation:ease-in-out pageease 1.3s;
+}
+@keyframes pageease{
+  0%
+  {
+  	opacity:0;
+  }
+  100%
+  {
+    opacity:1;
+  }
+}

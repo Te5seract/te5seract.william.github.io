@@ -1,0 +1,1107 @@
+*{margin:0;padding:0;}
+::selection{background:#ccc;}
+::-webkit-scrollbar
+{
+  width:5px;
+  height:5px;
+}
+::-webkit-scrollbar-track
+{
+  background-color:#fff;
+}
+::-webkit-scrollbar-corner
+{
+  background-color:#fff;/*#7a7a7a*/
+}
+::-webkit-scrollbar-thumb
+{
+  background-color:#7a7a7a;/*#000*/
+}
+body
+{
+  background-color:#fff;
+}
+#banner
+{
+  width:100%;
+  height:200px;
+  position:relative;
+}
+.indexslide
+{ 
+   width:100%;
+   display:block;
+   height:50%;
+   object-fit:cover;
+   object-position:center;
+}
+.bannerlogo
+{
+  position:absolute;
+  background-image:url(images/wf-logo-full-black.png);
+  width:350px;
+  height:200px;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);  
+  z-index:2;
+}
+#navigation
+{
+  text-align:center;
+  width:100%;
+  height:50px;
+  font-size:12px;
+  text-transform:uppercase;
+  border-bottom:1px solid #e0e0e0;
+  overflow:hidden;
+  transition:ease-in-out .3s;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
+.mobmenu
+{
+  font-size:22px;
+  margin-left:-1px;
+  margin-top:10px;
+  cursor:pointer;
+  color:#7a7a7a;
+}
+.mobmenu2
+{
+  font-size:22px;
+  margin-left:-1px;
+  margin-top:10px;
+  cursor:pointer;
+  color:#7a7a7a;
+}
+.mobbox
+{
+  position:fixed;
+  top:0;
+  left:0;
+  border-bottom-right-radius:6px;
+  background-color:#fff;
+  z-index:2;
+  width:45px;
+  height:45px;
+  text-align:center;
+  overflow:hidden;
+  display:none;
+}
+.mobbox2
+{
+  position:fixed;
+  top:0;
+  left:0;
+  border-bottom-right-radius:6px;
+  background-color:#fff;
+  z-index:2;
+  width:45px;
+  height:45px;
+  text-align:center;
+  overflow:hidden;
+  display:none;
+}
+.mobilecontent
+{
+  text-align:center;
+  font-size:15px;
+  margin-top:25px;
+  overflow:auto;
+}
+.mobcont
+{
+  list-style:none;
+  margin:5px;
+}
+.subcat
+{
+  padding:5px;
+  margin-top:-10px;
+  display:none;
+}
+.catmob
+{
+  cursor:pointer;
+}
+.navcont
+{
+  display:inline-block;
+}
+#page
+{
+  text-align:center;
+  color:#7a7a7a;
+  font-size:13px;
+  max-width:600px;
+  margin:50 auto 0 auto;
+  padding:5px;
+  margin-bottom:50px;
+}
+.profileimg
+{
+  background-image:url(http://68.media.tumblr.com/8d6edd45592278e1020b6f719b57d2c3/tumblr_nvcx6kpUoE1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  width:400px;
+  height:500px;
+  margin:0 auto;
+  transition:ease-in-out .5s;
+}
+.category
+{
+  background-color:#fff;
+  width:230px;
+  height:70px;
+  display:inline-block;
+  margin:5px;
+  box-shadow:0px 1px 2px rgba(0, 0, 0, 0.4);
+  border-radius:3px;
+}
+.category h3
+{
+  line-height:70px;
+  text-transform:none;
+  display:none;
+  position:absolute;
+  z-index:1;
+  width:230px;
+  text-align:center;
+}
+.cateff
+{
+  opacity:0.5;
+}
+.portfolio
+{
+  margin:0 auto;
+}
+.social
+{
+  position:absolute;
+  z-index:2;
+  right:15;
+  top:15;
+  font-size:19px;
+}
+.socicont
+{
+  display:inline-block;
+  margin:5px;
+}
+.attributepos
+{
+  position:absolute;
+  bottom:10;
+  left:10;
+}
+#footer
+{
+  width:100%;
+  height:30px;
+  position:relative;
+  border-top:1px solid #e0e0e0;
+  padding-top:25px;
+  text-align:center;
+}
+#footer p
+{
+  margin-top:-5px;
+}
+/*///PRICE PAGE///*/
+.pricing
+{
+  background-color:#c1f7bb;
+  color:#494949;
+  padding:5px;
+  border-radius:3px;
+}
+/*///GALLERY THUMBS///*/
+#pagegallery
+{
+  text-align:center;
+  color:#7a7a7a;
+  font-size:13px;
+  width:1650px;
+  margin:50 auto 50 auto;
+}
+.thumblinkmob
+{
+  display:none;
+}
+.thumb
+{
+  width:300px;
+  height:300px;
+  display:inline-block;
+  margin:5px;
+  background-color:#fff;
+  border-radius:3px;
+  overflow:hidden;
+  border:1px solid #e0e0e0;
+  padding:5px;
+}
+.pagi
+{
+  margin-top:40px;
+}
+#lightboxcontain
+{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:3;
+  background-color:rgba(0, 0, 0, 0.7);
+  overflow:auto;
+  display:none;
+}
+.imgbox img
+{
+  max-height:90%;
+}
+.picture
+{
+  max-width:50%;
+  height:auto;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  border-radius:5px;  
+  position:absolute;
+  box-shadow:0px 0px 5px rgba(0, 0, 0, 0.9);
+  z-index:5;
+}
+.closetoggle
+{
+  text-align:right;
+  color:#f2f2f2;
+  position:absolute;
+  z-index:4;
+  top:20;
+  right:20;
+  cursor:pointer;
+}
+.thumbimg1
+{
+  background-image:url(http://68.media.tumblr.com/af33d900052e9a2e7600d7124b507e05/tumblr_omioejBam61v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg2
+{
+  background-image:url(http://68.media.tumblr.com/c85d8cdf06970bb4908e86b57d93cd2a/tumblr_ojzv2vBOgX1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg3
+{
+  background-image:url(http://68.media.tumblr.com/c18b7c5f19344f20704d5e85a1af5392/tumblr_ojzv2gvIAp1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg4
+{
+  background-image:url(http://68.media.tumblr.com/50bc8b55ff15d1654221bcb705f48806/tumblr_ojc0dpilw81v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg5
+{
+  background-image:url(http://68.media.tumblr.com/faa03db6b14e93a94faf2fde1b2ec9a4/tumblr_ojc0baLtF61v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg6
+{
+  background-image:url(http://68.media.tumblr.com/e5682b067fc9a08e0e49676b4fec4bd7/tumblr_ojc08w1ned1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg7
+{
+  background-image:url(http://68.media.tumblr.com/a907eedf6f490669b96e852bf72adf31/tumblr_ojc09kz6Ca1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg8
+{
+  background-image:url(http://68.media.tumblr.com/0c2ad8911b260d631f7ed9dd8b94f577/tumblr_ojc0a94rgS1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg9
+{
+  background-image:url(http://68.media.tumblr.com/0a69c10d8649cba127b4f991cb6fc6d3/tumblr_ojc0atgdjd1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg10
+{
+  background-image:url(http://68.media.tumblr.com/2470fa5c96faf063f3e4ff5e1a591c3c/tumblr_ojc0evSHoF1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg11
+{
+  background-image:url(http://68.media.tumblr.com/a5bdfb8813468098cd60f48da88793ee/tumblr_oca0murgLS1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg12
+{
+  background-image:url(http://68.media.tumblr.com/e917ab5620788e53fee0ee4453f12e73/tumblr_ocin4iUTJ31v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg13
+{
+  background-image:url(http://68.media.tumblr.com/0f52e16a8a1967e68e91dd781eac653c/tumblr_odcj5haWO51v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg14
+{
+  background-image:url(http://68.media.tumblr.com/48c832061d0026f4da138acdb41212d7/tumblr_oeyoy8FsJA1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg15
+{
+  background-image:url(http://68.media.tumblr.com/9694c5ddf414bd275346852d3b40b5f2/tumblr_ocosk6U8zz1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg16
+{
+  background-image:url(http://68.media.tumblr.com/525024de3e82d24a921d81e8fb0bb79f/tumblr_ob6u63kSyC1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg17
+{
+  background-image:url(http://68.media.tumblr.com/822fd932da97756ce102469dde591aa8/tumblr_obq2m6pIQr1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg18
+{
+  background-image:url(http://68.media.tumblr.com/58a621cbdfb7759bb6db9fdf1bd340fc/tumblr_obi3bm6r7r1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg19
+{
+  background-image:url(http://68.media.tumblr.com/bf9469a120adf5d92258080d59ec3602/tumblr_o899xnboKi1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg20
+{
+  background-image:url(http://68.media.tumblr.com/7c8345524f70d5f0dff63b0c2288e127/tumblr_o9e57jMtoo1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg21
+{
+  background-image:url(http://68.media.tumblr.com/f4834bf92b35f81b9d4a90c415dfd041/tumblr_oamutrlhVO1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg22
+{
+  background-image:url(http://68.media.tumblr.com/10aacb0903218dbd41f16254b0cc2a7b/tumblr_o89dcpnUBK1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg23
+{
+  background-image:url(http://68.media.tumblr.com/2fb029051fe48a39fa0c5cb68e9de0a4/tumblr_o9lud4iSgC1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg24
+{
+  background-image:url(http://68.media.tumblr.com/09be5dd118e06f8f16734506b52e6243/tumblr_o6f3grDUj41v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg25
+{
+  background-image:url(http://68.media.tumblr.com/a1ce59e1d973e8a468f4850777b36295/tumblr_o7n7dpFZxJ1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg26
+{
+  background-image:url(http://68.media.tumblr.com/e0c516a2e2cc40fc265189ba4392bbd5/tumblr_o6vlv1cRx11v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg27
+{
+  background-image:url(http://68.media.tumblr.com/995fddc37203f72a3585a48ff6048c42/tumblr_o6m7dtXs6Z1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg28
+{
+  background-image:url(http://68.media.tumblr.com/6a92abbf5bf3cc569e43e2598dc432c0/tumblr_o6m8flM7th1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg29
+{
+  background-image:url(http://68.media.tumblr.com/4fe1d9e74f2af08aca483866f8c7d364/tumblr_o3s66gCtAp1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg30
+{
+  background-image:url(http://68.media.tumblr.com/f3b6a1ebf2a038ee45e5b02e809e3c91/tumblr_o4ywfjZoGi1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg31
+{
+  background-image:url(http://68.media.tumblr.com/42bbc7108c0c7b7e2d3bc8543685f5bb/tumblr_o56q80QwdQ1v0h6mno2_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg32
+{
+  background-image:url(http://68.media.tumblr.com/6b4b2de22754779aa1cfc6f8045b5dfc/tumblr_o4z9yq5fJr1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg33
+{
+  background-image:url(http://68.media.tumblr.com/d774495d3fe7c45590a42a3c4829d19f/tumblr_o44zo45q4E1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg34
+{
+  background-image:url(http://68.media.tumblr.com/c81dab9073dfb88ea11158b450461856/tumblr_o4te5mSMCl1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg35
+{
+  background-image:url(http://68.media.tumblr.com/0137fc813289b0a8561a29e4d2d3adf3/tumblr_o1n5qa6Qhm1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg36
+{
+  background-image:url(http://68.media.tumblr.com/fedf341be29203d66b70cb5932067475/tumblr_o32iffMdMj1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg37
+{
+  background-image:url(http://68.media.tumblr.com/73bbc8e2ea26f9f1b6306e6de5a46aa8/tumblr_o3bw2zSYlV1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg38
+{
+  background-image:url(http://68.media.tumblr.com/802b674979ec34e4dcb8beb6fb37f553/tumblr_o383jd2yDP1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg39
+{
+  background-image:url(http://68.media.tumblr.com/49233e74c9aebb4d2aa33b4c6393c03a/tumblr_nypgvn24Ct1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg40
+{
+  background-image:url(http://68.media.tumblr.com/8a5792bfad0989cdbab56eabc6611685/tumblr_o0alajAsMN1qdb4ajo2_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg41
+{
+  background-image:url(http://68.media.tumblr.com/cd37a7699330000f413d95de982de4e4/tumblr_o1b5jpMslA1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg42
+{
+  background-image:url(http://68.media.tumblr.com/c8d9ec5e8a3f5decba2cd5ea90bd91f4/tumblr_o0plquumV61qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg43
+{
+  background-image:url(http://68.media.tumblr.com/b3e7f9ed475bcc44ed4bdf82d451ff1a/tumblr_nzl1ldZp231qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg44
+{
+  background-image:url(http://68.media.tumblr.com/d11e30a625ee2f2308b08ca1f33cd1f2/tumblr_nzyx5icLLK1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg45
+{
+  background-image:url(http://68.media.tumblr.com/a415c2d55b542a7b15e7ba04c77cd800/tumblr_ny55dzp1Z81qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg46
+{
+  background-image:url(http://68.media.tumblr.com/8a5792bfad0989cdbab56eabc6611685/tumblr_o0alajAsMN1qdb4ajo2_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg47
+{
+  background-image:url(http://68.media.tumblr.com/0d472ce7898b6f61e831cadb55af5876/tumblr_nyjs48U8i81qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg48
+{
+  background-image:url(http://68.media.tumblr.com/f1dd34988d191db9681dbe74b06f06f1/tumblr_nyh59nYXOe1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg49
+{
+  background-image:url(http://68.media.tumblr.com/acd5994e3ef510ba8e4568bb6da6f981/tumblr_nxs2vaoOv91qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg50
+{
+  background-image:url(http://68.media.tumblr.com/26930dca30834d4f7cfd952783f5cc08/tumblr_nwdjdyBZDy1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg51
+{
+  background-image:url(http://68.media.tumblr.com/6583b7969ab69d349e18b4134fde683c/tumblr_nwwlzt2AgV1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg52
+{
+  background-image:url(http://68.media.tumblr.com/53f3fd64408027de673bc9d8d43321cc/tumblr_nxf31vqB3u1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg53
+{
+  background-image:url(http://68.media.tumblr.com/e8c0dd384aa7a1749c0c0d0ec7c70c0b/tumblr_nw2ye5mSOL1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg54
+{
+  background-image:url(http://68.media.tumblr.com/f01bd8f63c3ebafd86555200adc4f798/tumblr_nwnfkmInly1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg55
+{
+  background-image:url(http://68.media.tumblr.com/f851f6e37206bb115495eff53c08ef12/tumblr_nxo3z7P2NJ1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg56
+{
+  background-image:url(http://68.media.tumblr.com/7ac1f4f3a66b6744446cfc62df8e086f/tumblr_nvibkhWGCv1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg57
+{
+  background-image:url(http://68.media.tumblr.com/7bc995e0574cc6eca36a40ee80b0085c/tumblr_nvpq6oMMNI1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg58
+{
+  background-image:url(http://68.media.tumblr.com/6c5df320eaf357e2970d7e443b5e8eca/tumblr_nvgpvl75uB1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg59
+{
+  background-image:url(http://68.media.tumblr.com/d7be7754b36213618aa408994db5ca01/tumblr_nvrvyiMyXG1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg60
+{
+  background-image:url(http://68.media.tumblr.com/18bb4679a7338c1b11afff02f60a6a87/tumblr_nvvtgeGs6i1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg61
+{
+  background-image:url(http://68.media.tumblr.com/280698454d96aec89664e0e0c1efc7d8/tumblr_nvpkop6tGG1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg62
+{
+  background-image:url(http://68.media.tumblr.com/846c4b793d078efd536258f5a36205fd/tumblr_nv1m77hRZO1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg63
+{
+  background-image:url(http://68.media.tumblr.com/6491071b81917bf6e3f8953d0aad7a94/tumblr_nvb97mdNFb1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+
+.thumbimg64
+{
+  background-image:url(http://68.media.tumblr.com/36b8f193d942b5fc1a053913d569ade5/tumblr_nvcv7hELV11qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg65
+{
+  background-image:url(http://68.media.tumblr.com/81df289f024343eeb899903c7c712da2/tumblr_nvb58b2SOW1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg66
+{
+  background-image:url(http://68.media.tumblr.com/7d09efc80fe670b672833d46a3e5db6a/tumblr_nv1soiWAgx1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg67
+{
+  background-image:url(http://68.media.tumblr.com/067aef3de8eb2b506c2c2002345e716b/tumblr_nuexx9ovFv1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg68
+{
+  background-image:url(http://68.media.tumblr.com/7292ebe2531d13c79b155d8f70b02541/tumblr_nu6gra0JjL1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg69
+{
+  background-image:url(http://68.media.tumblr.com/4a7ebdfef3a549fb85b700b650f7fd38/tumblr_ntjuvrRpHs1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg70
+{
+  background-image:url(http://68.media.tumblr.com/b3793acf272d8370431ff732fc8b75c8/tumblr_nub0b90sPL1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg71
+{
+  background-image:url(http://68.media.tumblr.com/dbd79635b3c20d2f7caa71d8fa1fa9a3/tumblr_nu6hkoBi2j1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg72
+{
+  background-image:url(http://68.media.tumblr.com/624484df6a3bd3f3c4a4703ddc04e555/tumblr_ns4g6rdLPz1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg73
+{
+  background-image:url(http://68.media.tumblr.com/d911f343251216df8fef81fd424b535e/tumblr_ntih05KkQc1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+
+.thumbimg74
+{
+  background-image:url(http://68.media.tumblr.com/01327d13a51c57c35f85b344535c9c47/tumblr_ntigdnRBAA1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg75
+{
+  background-image:url(http://68.media.tumblr.com/c5f8fa8dc2ab4f561c3956d30dad6a03/tumblr_nq27lkXIUh1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg76
+{
+  background-image:url(http://68.media.tumblr.com/528ee3028462489fe81941709795e41f/tumblr_nnp2j71jdV1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg77
+{
+  background-image:url(http://68.media.tumblr.com/dca02a0119b613e4aad8ec77e1a89c93/tumblr_nq24o4hdBr1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg78
+{
+  background-image:url(http://68.media.tumblr.com/10ca419afa194c9753acc6775090c5bc/tumblr_ntjrigNKh91qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg79
+{
+  background-image:url(http://68.media.tumblr.com/f6c1e587eaf486bc40929cf9971cb121/tumblr_np39ai7q2V1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg80
+{
+  background-image:url(http://68.media.tumblr.com/4a875fc3ba21a52e17c2be2744bfd9d4/tumblr_nnmnwg83bN1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg81
+{
+  background-image:url(http://68.media.tumblr.com/28fe1f5d5c6dd80af7e241483fe91063/tumblr_nnj5ugIQTk1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg82
+{
+  background-image:url(http://68.media.tumblr.com/528ee3028462489fe81941709795e41f/tumblr_nnp2j71jdV1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg83
+{
+  background-image:url(http://68.media.tumblr.com/2d67ea0087ef262bb1f5e976dd0adb64/tumblr_nnsa7e47Tz1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+
+.thumbimg84
+{
+  background-image:url(http://68.media.tumblr.com/90f6d306a11535394cc65a9d0ce73b71/tumblr_noatdv6NP31qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg85
+{
+  background-image:url(http://68.media.tumblr.com/8730077a3b220b7446e418265e4d01f3/tumblr_ndgpb0dxs11qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+.thumbimg86
+{
+  background-image:url(http://68.media.tumblr.com/270daaf3c215913bdc3e89ee911b4f2c/tumblr_nh3ju4ZeZU1qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;  
+  height:100%;
+  width:100%;
+}
+/*///CATEGORY IMAGES///*/
+.img1
+{
+  background-image:url(http://68.media.tumblr.com/e917ab5620788e53fee0ee4453f12e73/tumblr_ocin4iUTJ31v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius:3px;
+  width:230px;
+  height:70px;  
+}
+.img2
+{
+  background-image:url(http://68.media.tumblr.com/6b4b2de22754779aa1cfc6f8045b5dfc/tumblr_o4z9yq5fJr1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius:3px;
+  width:230px;
+  height:70px;  
+}
+.img3
+{
+  background-image:url(http://68.media.tumblr.com/0c2ad8911b260d631f7ed9dd8b94f577/tumblr_ojc0a94rgS1v0h6mno1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius:3px;
+  width:230px;
+  height:70px;  
+}
+.img4
+{
+  background-image:url(http://68.media.tumblr.com/c8d9ec5e8a3f5decba2cd5ea90bd91f4/tumblr_o0plquumV61qdb4ajo1_1280.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius:3px;
+  width:230px;
+  height:70px;  
+}

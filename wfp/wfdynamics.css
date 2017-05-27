@@ -1,0 +1,202 @@
+/*///MOBILE///*/
+@media only screen and (max-device-width:1050px){
+  .thumblinkmob
+  {
+    display:block;
+    margin-top:5px;
+    font-size:17px;
+  }
+  .thumb
+  {
+    width:300px;
+    height:300px;
+    display:inline-block;
+    margin:5px;
+    background-color:#fff;
+    border-radius:3px;
+    overflow:hidden;
+    border:1px solid #e0e0e0;
+    padding:5px 5px 28px 5px;
+  }  
+  .social
+  {
+    top:5;
+    right:5;
+  }
+  .profileimg
+  {
+    width:250px;
+    height:400px;
+    margin:0 auto;
+  }
+  #page
+  {
+    padding:20px;
+  }
+  .attributepos
+  {
+    position:static;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  .socinavi
+  {
+    color:#fff;
+    font-size:18px;
+  }
+  .socinavi:hover
+  {
+    color:#fff;
+  }
+  .mobbox2
+  {
+    font-size:23px;
+    display:block;
+  }
+  .thumb:hover .thumblink
+  {
+    display:none;
+  }
+  .thumb:hover .thumboverlay
+  {
+    display:none;
+  }
+  .thumb:hover .thumboverlay:before
+  {
+    display:none;
+  }
+  #navigation
+  {
+    display:none;
+  }
+  .thumboverlay
+  {
+    display:none;
+  }
+  .mobnavicat:hover
+  {
+    color:transparent;
+  }
+  .mobnavi:hover
+  {
+    background-color:transparent;
+  }
+}
+@media only screen and (max-device-width:430px){
+  .mobbox2
+  {
+    display:none;
+  }
+  .mobbox
+  {
+    display:block;
+  }
+}
+@media only screen and (max-device-width:350px){
+  .thumb
+  {
+    width:250px;
+    height:250px;
+  }
+  .bannerlogo
+  {
+    position:absolute;
+    background-image:url(images/wf-logo-full-black.png);
+    width:300px;
+    height:200px;
+  }
+  #pagegallery
+  {
+    width:300px !important;
+  }
+}
+/*///DESKTOP///*/
+@media only screen and (max-width:1700px){ /*4*/
+  #pagegallery
+  {
+    width:1320px;
+  }	
+  .picture
+  {
+    max-width:60%;
+  }
+}
+@media only screen and (max-width:1400px){ /*3*/
+  #pagegallery
+  {
+    width:980px;
+  }
+  .picture
+  {
+    max-width:60%;
+  }
+}
+@media only screen and (max-width:1100px){ /*2*/
+  #pagegallery
+  {
+    width:650px;
+  }	
+  .profileimg
+  {
+    width:250px;
+    height:400px;
+    margin:0 auto;
+  }
+  .attributepos
+  {
+    position:static;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:5px;
+  }
+  .socinavi
+  {
+    color:#fff;
+    transition:ease-in-out .2s;
+  }
+  .socinavi:hover
+  {
+    color:#e0e0e0;
+  }
+  .picture
+  {
+    max-width:75%;
+  }
+  #navigation
+  {
+    display:none;
+  }
+  .mobbox2
+  {
+    font-size:23px;
+    display:block;
+  }
+}
+@media only screen and (max-width:700px){ /*1*/
+  .bannerlogo
+  {
+    position:absolute;
+    background-image:url(images/wf-logo-full-black.png);
+    width:300px;
+    height:200px;
+  }
+  #pagegallery
+  {
+    width:300px;
+  }
+  .picture
+  {
+    max-width:85%;
+  }
+  .thumb
+  {
+    width:270px;
+    height:270px;
+  }
+  .thumboverlay
+  {
+    width:270px;
+    height:270px;
+  }
+}
